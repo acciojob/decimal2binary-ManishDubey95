@@ -12,7 +12,6 @@ function decimalToBinary(num)
   {
     output = 1 + output;
   }
-  console.log(output);
+  return output;
 }
-
 window.decimalToBinary = decimalToBinary;
